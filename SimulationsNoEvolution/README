@@ -1,0 +1,28 @@
+This folder contains Matlab code to perform the analyses with no evolution in the space clearance rate-handling 
+time to illustrate areas of likely extinction with demographic stochasticity.
+
+The folder contains the following files:
+
+Call_MR_bdLogistic_Landscape -- this file defines a loop over the space clearance rate-handling time plane 
+where the proportion of extant populations in simulations with no evolution but with demographic stochasticity
+are calculated
+
+GEM_MR_bdLogistic -- this file defines the function for the Gillespie Eco-evolutionary Model (GEM) of the 
+MacArthur-Rosenzweig model to run
+
+MacArthurRosenzweig_bdLogistic -- this file defines a function for the deterministic ODE of the 
+MarArthur-Rosenzweig model
+
+rep -- this file contains a user-defined that replicates R's version of the function rep
+
+V4_medians_and_cis -- this file is called by the GEM file to calculate median values across time steps 
+and to get confidence intervals
+
+V4_pick_individuals -- this function is called by the GEM file to pick the initial individuals for 
+the GEM simulations
+
+
+
+
+
+
