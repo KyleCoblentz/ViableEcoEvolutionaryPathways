@@ -1,0 +1,25 @@
+This folder contains Matlab code to perform the analyses with predator evolution in the space clearance rate-handling 
+time plane to illustrate viable eco-evolutionary pathways.
+
+The folder contains the following files:
+
+Call_MR_bdLogistic_EvolonLandscape -- this file contains the code that performs the Gillespie Eco-evolutionary Model (GEM) 
+simulations to examine the evolutionary trajectories of predators on the space clearance rate-handling time plane
+
+GEM_MR_bdLogistic -- this file defines the function for the GEM of the 
+MacArthur-Rosenzweig model to run
+
+MacArthurRosenzweig_bdLogistic -- this file defines a function for the deterministic ODE of the 
+MarArthur-Rosenzweig model
+
+rep -- this file contains a user-defined that replicates R's version of the function rep
+
+V4_medians_and_cis -- this file is called by the GEM file to calculate median values across time steps 
+and to get confidence intervals
+
+V4_pick_individuals -- this function is called by the GEM file to pick the initial individuals for 
+the GEM simulations
+
+
+
+
