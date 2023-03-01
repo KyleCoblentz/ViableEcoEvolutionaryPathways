@@ -1,0 +1,14 @@
+This folder contains the code required to do the analyses to produce 1) the landscape of population persistance, 
+2) the landscape of minimum population size values, 3) the landscape of maximum eigenvalues, and 4) the landscape
+of qualitative stability outcomes that are given in Figures 2 and 3.
+
+The repository contains the following code and data generated with it:
+
+BDLogistic_LinearStabilityAnalysis.nb -- a Mathematica notebook that performs linear stability analysis for the landscape
+
+Call_MR_bdLogistic_Landscape.m -- Matlab file that performs the analysis of getting population persistance for each point 
+on the space clearance rate-handling time plane. This file requires the following other matlab files within the repository:
+GEM_MR_bdLogistic.m, MacArthurRosenzweig_bdLogistic.m, rep.m, V4_medians_and_cis.m, V4_pick_individuals
+
+Pop_Persist_Plot.R -- R code for plotting the landscapes in Figures 2 and 3. Uses the data found in ProportionExt_HighIntComp.csv,
+and Stability_ahPlane.csv for Figure 2 and ProportionExt_LowIntComp.csv and Stability_ahPlane_HighK.csv for Figure 3.
