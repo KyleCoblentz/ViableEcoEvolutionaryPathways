@@ -1,0 +1,14 @@
+This folder contains the code required to do the analyses to perform stochastic eco-evolutionary simulations of predator 
+evolution and compare the trajectories of extinct and extant populations when the prey has a high carrying capacity.
+
+The repository contains the following code and data generated with it:
+
+BDLogistic_FeasibilityandStabilityBoundaries_NumericEvol.nb -- a Mathematica notebook that gives numeric results from a 
+quantitative genetics version of the eco-evolutionary model
+
+Call_MR_bdLogistic_EvolonLandscape.m -- Matlab file that performs the analysis of the eco-evolutionary model. 
+This file requires the following other matlab files within the repository:
+GEM_MR_bdLogistic.m, MacArthurRosenzweig_bdLogistic.m, rep.m, V4_medians_and_cis.m, V4_pick_individuals.m, jbfill.m
+
+Figure5_Plot.R -- R code for creating the plots in Figure 5. Uses the data found in ProportionExt_LowIntComp.csv,
+indrundata.csv, mediantraitdata.csv, popmediandata.csv, TraitDynamicsQG.csv.
