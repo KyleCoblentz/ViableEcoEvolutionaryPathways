@@ -1,0 +1,12 @@
+This folder contains the code required to do the analyses to perform stochastic eco-evolutionary simulations of predator 
+evolution and compare the trajectories of extinct and extant populations with explicit traits determining predator 
+space clearance rates and handling times.
+
+The repository contains the following code and data generated with it:
+
+Call_MR_bdLogistic_Evolution_ExplicitTraits_mod.m -- Matlab file that performs the analysis of the eco-evolutionary model. 
+This file requires the following other matlab files within the repository:
+GEM_MR_bdLogistic_ExplicitTraits_mod.m, MacArthurRosenzweig_bdLogistic_ExplicitTraits_mod.m, rep.m, V4_medians_and_cis.m, V4_pick_individuals.m, jbfill.m
+
+Figure4_Equiv_Plot_mod.R -- R code for creating the plots in Supplemental Material S3. Uses the data found in ProportionExt_LowIntComp.csv,
+indrundata.csv, mediantraitdata.csv, popmediandata.csv, TraitDynamicsQG.csv.
